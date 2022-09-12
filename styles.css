@@ -1,0 +1,189 @@
+body{
+	background-color: #295982;
+}
+.topnav{
+	backhround-color: #333;
+	overflow: hidden;
+}
+h1{
+	float: left;
+}
+.topnav a{
+	float: right;
+	color: black;
+	background-color: #6FABD0;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.topnav a:hover{
+	background-color: #CAD5E3;
+	color: black;
+}
+.topnav a.active{
+	background-color: #072F5F;
+	color: white;
+}
+.topnav h1{
+	color: white;
+}
+.container{
+	position: relative;
+	text-align: center;
+	color: black;
+	font-size: 50px;
+}
+.centered{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.shop{
+	font-size: 18px;
+	width: 20%;
+	background-color: black;
+}
+form{
+	width: 60%;
+	margin-left: 20%;
+	border: 5px solid #f1f1f1;
+	color: white;
+}
+input[type=text], input[type=password]{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+button{
+	background-color: #04AA6D;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+button:hover{
+	opacity: 0.8;
+}
+.cancelbtn{
+	width: auto;
+	padding: 10px 18px;
+	background-color: #f44336;
+}
+.imgcontainer{
+	text-align: center;
+	margin: 24px 0 12px 0;
+}
+img.avatar{
+	width: 20%;
+	border-radius: 50%
+}
+.container1{
+	padding: 16px;
+}
+span.psw{
+	float: right;
+	padding-top: 16px;
+	color: black;
+}
+@media screen and (max-width: 300px){
+	span.psw{
+		display: block;
+		float: none;
+	}
+	.cancelbtn{
+		width: 100%;
+	}
+}
+.container2{
+  padding: 16px;
+  color: white;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 35px;
+}
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity:1;
+}
+a {
+  color: dodgerblue;
+}
+.signin {
+  color: white;
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 24%;
+  padding: 5px;
+  padding-bottom: 3%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.text{
+	color: white;
+}
+.cartbtn button{
+	font-size:15px;
+	background-color: maroon;
+}
+.cartbtn button:hover{
+	opacity: 0.5;
+}
+.cart{
+	width: 70%;
+	margin-left: 15%;
+	text-align: center;
+	border: 1px solid white;
+	overflow-y: scroll;
+	height: 50%;
+	margin-bottom: 2%;
+}
+.cart::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.cartImg > img{
+	width: 350px;
+}
+#text{
+	color: white;
+	font-size: 20px;
+}
+.cart button{
+	width: 100px;
+	margin-bottom: 5%;
+}
